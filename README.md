@@ -19,14 +19,14 @@ Build a `WorkOrders` API with two kind of action items preventive and corrective
 ### Build a RESTful Messaging API that includes (but is not necessarily limited to) the following resources:
 * Technicians
 * WorkOrders
-* Retainers
-* Tickets
+* Preventive services
+* Corrective services
 
 ### The RESTful API should at least allow you to:
 * Create users (with a username)
 * List users
 * Create new ticket assigned to technician - should be able to have multiple tickets
-* List all tasks as work orders (retainers and tickets) by technician and order by date desc
+* List all tasks as work orders (correctives and preventives) by technician and order by date desc
 * Able to mark as done 
 * View all task done and pending to be done
 * Routes should be organized logically
