@@ -23,8 +23,7 @@ Build a `WorkOrders` API with two kind of action items preventive and corrective
 * Corrective services
 
 ### The RESTful API should at least allow you to:
-* Create users (with a username)
-* List users
+* List technicians
 * Create new ticket assigned to technician - should be able to have multiple tickets
 * List all tasks as work orders (correctives and preventives) by technician and order by date desc
 * Able to mark as done 
@@ -46,7 +45,6 @@ Build a `WorkOrders` API with two kind of action items preventive and corrective
 
 ## Bonus Points
 * Appropriate use of task management tool
-* Clean architecture
 * Appropriate unit tests for bounderies implementations
 * Some kind of authentication mechanism
 * Some kind of API documentation with sample payload and any params that are required or optional
